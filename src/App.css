@@ -1,0 +1,44 @@
+body{
+  margin: 20px;
+  padding:0;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content:space-between;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+ul li{
+  flex: 0 0 33%;
+}
+ul li a{
+  color: #000;
+  text-decoration: none;
+}
+ul li a:hover{color: #333;}
+.padd-2{padding: 2rem;}
+.showDetails ul{
+  margin: 40px 0 0 40px;
+  flex-direction: column;
+  width: auto;
+}
+.navbar-holder{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-top: 0;
+}
+.input-row-holder .form-control{
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.input-row-holder .btn.btn-primary{
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
